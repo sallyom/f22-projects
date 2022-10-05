@@ -30,7 +30,9 @@ git fetch --all
 git branch # you'll want to be in the branch you are updating
 git checkout my-new-branch # might not be necessary
 git rebase upstream/main
-# add your changes
+
+# add more changes
+
 git add .
 git commit --signoff -m "this is my new contribution"
 git push --force-with-lease origin my-new-branch
