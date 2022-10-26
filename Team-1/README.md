@@ -18,7 +18,12 @@ console git push origin main
 
  From Team-1/typescript-nodejs/
 ``` 
-npx init -y
-npx install
+npm init -y
+npm install
 npx ts-node index.ts
 ```
+open any browser and input localhost:3000
+```
+ctrl c to interrupt program
+```
+rm -rf node_modules if changes need to be pushed to git
