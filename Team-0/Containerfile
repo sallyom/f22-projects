@@ -1,0 +1,4 @@
+FROM fedora
+COPY . .
+RUN dnf module install nodejs:18
+RUN npm init && npm install 
